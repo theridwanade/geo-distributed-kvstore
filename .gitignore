@@ -1,2 +1,4 @@
 ./kvstore/target/
 .idea/
+.vscode/
+*.log
