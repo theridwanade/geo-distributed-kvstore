@@ -10,6 +10,7 @@ async fn main() {
     println!("Server running on http://localhost:3000");
     axum::serve(listener, app).await.unwrap();
 }
+
 async fn health_check() -> &'static str {
     "OK"
 }
